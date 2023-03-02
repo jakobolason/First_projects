@@ -405,8 +405,6 @@ class Slots:
                         print("There is a minimum of 1$ wage")
                     elif self.players_money == 0:
                         sys.exit('You have no more money, the game is over')
-
-                        
                 except ValueError:
                     print("You must enter a number")                 
             print("You have wagered {wager}!".format(wager=self.wager))
